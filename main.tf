@@ -7,9 +7,6 @@ terraform {
   }
 }
 
-provider "aws" {
-  region = var.region
-}
 
 module "s3-webapp" {
   source  = "app.terraform.io/Instruqt-Andy-King-Learning/s3-webapp/aws"
